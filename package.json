@@ -1,0 +1,16 @@
+{
+    "name": "@template/mono",
+    "version": "1.0.0",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev",
+        "fmt": "prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^2.8.1",
+        "turbo": "^1.6.3"
+    }
+}
