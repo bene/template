@@ -32,11 +32,15 @@ Project template for building fullstack TypeScript applications in a monorepo.
 
 Replace all occurrences of `@template` with the name of the project.
 
-### 2. Cut out unnecessary packages
+### 2. Customize
 
 Often not all of the default packages are needed.
 
 > rm -rf apps/mobile
+
+Or packages should have a different name
+
+> mv packages/utils packages/shared
 
 ### 3. Update deps
 
