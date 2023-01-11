@@ -26,7 +26,9 @@ Project template for building fullstack TypeScript applications in a monorepo.
 
 ### 0. Close repo
 
-> git clone git@github.com:bene/template.git
+```shell
+git clone git@github.com:bene/template.git
+```
 
 ### 1. Rename project
 
@@ -36,21 +38,30 @@ Replace all occurrences of `@template` with the name of the project.
 
 Often not all of the default packages are needed.
 
-> rm -rf apps/mobile
+```shell
+rm -rf apps/mobile
+```
 
 Or packages should have a different name
 
-> mv packages/utils packages/shared
+```shell
+mv packages/utils packages/shared
+```
 
 ### 3. Update deps
 
 The dependencies are not updated automatically and will be outdated most of the
 time.
 
-> npm outdated
+```shell
+yarn
+yarn outdated
+```
 
 ### 4. Start development
 
 To start all apps [Turborepo](https://turbo.build/) is used.
 
-> npm run dev
+```shell
+yarn dev
+```
