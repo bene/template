@@ -1,7 +1,7 @@
 {
     "name": "@template/mobile",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "index.ts",
     "scripts": {
         "dev": "expo start",
         "dev:android": "expo start --android",
