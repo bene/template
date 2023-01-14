@@ -1,12 +1,14 @@
 {
     "name": "@template/api",
     "version": "1.0.0",
-    "main": "build/main.js",
     "scripts": {
-        "dev": "nodemon src/main.ts"
+        "compile": "tsc",
+        "start": "node ./build/index.js",
+        "dev": "nodemon ./src/main.ts"
     },
     "dependencies": {
-        "@prisma/client": "^4.8.1",
+        "@template/prisma": "*",
+        "@template/utils": "*",
         "prisma": "^4.8.1"
     },
     "devDependencies": {

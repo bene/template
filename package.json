@@ -13,6 +13,8 @@
         ]
     },
     "scripts": {
+        "build:api": "docker build -t template/api:latest -f apps/api/Dockerfile .",
+        "build:web": "yarn workspace @template/web build",
         "dev": "turbo run dev",
         "fmt": "prettier --write ."
     },

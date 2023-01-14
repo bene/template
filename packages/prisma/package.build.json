@@ -1,0 +1,16 @@
+{
+    "name": "@template/prisma",
+    "version": "1.0.0",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "prisma": {
+        "schema": "src/schema.prisma"
+    },
+    "dependencies": {
+        "@prisma/client": "^4.8.1"
+    },
+    "devDependencies": {
+        "prisma": "^4.8.1",
+        "typescript": "^4.8.4"
+    }
+}
