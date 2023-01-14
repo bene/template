@@ -2,17 +2,17 @@
 
 > Work in progress
 
-Project template for building fullstack TypeScript applications in a monorepo.
+Project template for building fullstack TypeScript applications.
 
 ## Components
 
 ### Apps
 
-| Name   | Description                      |
-| ------ | -------------------------------- |
-| api    | Empty package folder with Prisma |
-| web    | React Web App (SPA)              |
-| mobile | ReactNative App using Expo       |
+| Name   | Description                |
+| ------ | -------------------------- |
+| api    | Empty Node.js app          |
+| web    | React Web app (SPA)        |
+| mobile | ReactNative app using Expo |
 
 ### Packages
 
@@ -24,10 +24,12 @@ Project template for building fullstack TypeScript applications in a monorepo.
 
 ## Usage
 
-### 0. Close repo
+### 0. Clone repo and re-init
 
 ```shell
 git clone git@github.com:bene/template.git
+rm -rf .git
+git init
 ```
 
 ### 1. Rename project
