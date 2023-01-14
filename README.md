@@ -67,3 +67,20 @@ To start all apps [Turborepo](https://turbo.build/) is used.
 ```shell
 yarn dev
 ```
+
+## Deployment
+
+### API
+
+| Option    | Description                     | Requirements                                                                                                                                               |
+| --------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dokku     | CI/CD to Dokku                  | `SSH_PRIVATE_KEY` repo secret containing an SSH key to access the Dokku server.<br> `deploy-dokku.yml` must be updated to use the correct `git_remote_url` |
+| Docker    | Run Docker image manually       | None                                                                                                                                                       |
+| Cloud Run | Serverless platform from Google | Setup in Cloud Console                                                                                                                                     |
+
+### Web
+
+| Option      | Description                             | Requirements             |
+| ----------- | --------------------------------------- | ------------------------ |
+| Netlify     | Static site hosting platform            | Setup in console         |
+| Self-hosted | Traditionally way of deploying web apps | File server (e.g. Caddy) |
