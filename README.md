@@ -72,11 +72,11 @@ yarn dev
 
 ### API
 
-| Option    | Description                     | Requirements                                                                                                                                               |
-| --------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dokku     | CI/CD to Dokku                  | `SSH_PRIVATE_KEY` repo secret containing an SSH key to access the Dokku server.<br> `deploy-dokku.yml` must be updated to use the correct `git_remote_url` |
-| Docker    | Run Docker image manually       | None                                                                                                                                                       |
-| Cloud Run | Serverless platform from Google | Setup in Cloud Console                                                                                                                                     |
+| Option    | Description                     | Requirements                                                                                                                                              |
+| --------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dokku     | CI/CD to Dokku                  | `SSH_PRIVATE_KEY` repo secret containing an SSH key to access the Dokku server<br> `deploy-dokku.yml` must be updated to use the correct `git_remote_url` |
+| Cloud Run | Serverless platform from Google | Setup in Cloud Console                                                                                                                                    |
+| Docker    | Run Docker image manually       | None                                                                                                                                                      |
 
 ### Web
 
